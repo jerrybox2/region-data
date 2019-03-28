@@ -1,0 +1,2 @@
+# base.txt
+django>=1.11.19
