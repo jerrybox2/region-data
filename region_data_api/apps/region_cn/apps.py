@@ -5,4 +5,4 @@ from django.apps import AppConfig
 
 
 class DemoappConfig(AppConfig):
-    name = 'project_sample.apps.demoapp'
+    name = 'region_data_api.apps.region_cn'
