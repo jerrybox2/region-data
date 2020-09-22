@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Build demo-app'
-        sh 'sh run_build_script.sh'
+        sh 'pwd'
       }
     }
 
@@ -13,7 +13,7 @@ pipeline {
         stage('Linux Tests') {
           steps {
             echo 'Specify Run Linux tests in its configuration panel'
-            sh 'sh run_linux_tests.sh'
+            sh 'pwd'
           }
         }
 
